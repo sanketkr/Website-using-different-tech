@@ -1,0 +1,77 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.navbar{
+    border-top: black solid 1px;
+}
+
+#logo-1{
+    margin: auto;
+    height: 90px;
+    display: none;
+}
+/* below code also sdetermine height of navbar */
+#logo{
+    width: 200px;
+    height: 45px;
+}
+@media only screen and (min-width: 1000px) {
+    .navbar-brand{
+        display: none;
+    }
+    #logo-1{
+        display: block;
+    }
+    .nav-link{
+        margin-right: 50px;
+
+    }
+    .margin-left{
+        margin-left: 250px !important;
+    }
+
+    /* side bar fixing code starts here */
+    .sidebar-outer {
+        margin-top: 30px;
+        position: relative;
+    }
+    .fixed {
+        position: fixed;
+    }
+    /* side bar fixing code ends here */
+
+  }
+
+
+
+.nav-link{
+    color: white !important;
+    font-size: larger;
+}
+.nav-link:hover{
+    color: #111111 !important;
+}
+
+#sticky {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    color: white;
+    text-align: center;
+  }
+
+a{
+    color: white;
+}
+.display{
+    display: block;
+
+}

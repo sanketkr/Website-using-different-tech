@@ -1,0 +1,64 @@
+body{
+  font-family: helvetica, sans-serif;
+  background-color: #FFC107 ;
+  text-align: center;
+}
+input{
+  height: 40px;
+  border-radius: 1%;
+  font-size: 70%;
+  width: 300px;
+  text-align: center;
+  border: black solid 1px;
+
+}
+textarea{
+
+  border-radius: 1%;
+  font-size: 70%;
+
+
+  border: black solid 1px;
+}
+
+.contact{
+  width: 80%;
+
+  margin: auto;
+}
+form{
+  display: inline-block;
+  font-size: 150%;
+
+
+}
+label{
+  float: left;
+}
+#submit{
+  width: 50%;
+}
+textarea{
+width: 99%;
+height: 100px;
+resize:vertical;
+}
+.erroemessege{
+  background-color: #F4E2DD;
+color: red;
+padding: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .contact{
+    width: 100%;
+  }
+
+
+
+
+
+
+
+}
